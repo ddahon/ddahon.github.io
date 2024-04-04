@@ -4,17 +4,17 @@
 # To see what each config does, refer to https://1bl4z3r.github.io/hermit-V2/en/posts/explaining-configs/
 # Open Issue or Pull Request at https://github.com/1bl4z3r/hermit-V2
 
-baseURL = "https://ddahon.github.io/"
+baseURL = "CHANGE BASE URL"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-theme = "hermit-v2"
+#theme = "hermit-v2"
 
-[languages]
- [languages.en]
-   title = 'Doryan Dahon'
-   [languages.en.params]
-     homeSubtitle = "Personal Blog"
-   weight = 1
+#[languages]
+#  [languages.en]
+#    title = 'CHANGE ME'
+#    [languages.en.params]
+#      homeSubtitle = "CHANGE ME"
+#    weight = 1
 #  [languages.fr]
 #    title = 'CHANGE ME(FR)'
 #    [languages.fr.params]
@@ -37,7 +37,7 @@ pygmentsUseClasses  = true
 
 rssLimit = 10
 
-copyright = "Doryan Dahon"
+copyright = "CHANGE ME"
 enableEmoji = true
 
 #[services]
@@ -54,7 +54,8 @@ expiryDate = ["expiryDate"]
 
 
 [params.author]
-  name = "Doryan Dahon"
+  name = "CHANGE SITE AUTHOR"
+  about = "CHANGE SITE AUTHOR ABOUT"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -88,7 +89,7 @@ expiryDate = ["expiryDate"]
   themeColor = "#494f5c"
 
   #homeSubtitle = "CHANGE ME HOME SUBTITLE"
-  footerCopyright = "CC BY-NC 4.0"
+  footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
   # bgImg = ""
   # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
 
@@ -101,7 +102,7 @@ expiryDate = ["expiryDate"]
   scrollToTop = true 
   global_mathjax = false
   readTime = true
-  readTimeSeparator = ""
+  readTimeSeparator = "CHANGE ME READ TIME"
   # legacyLayout = false
   shareSocial = true
   # googleTagManager = "GTM-XXXXXXXX"
@@ -113,12 +114,16 @@ expiryDate = ["expiryDate"]
   # initialPublish = "Initally Posted on: "
   
   [[params.socialLinks]]
-    name = "github"
-    url = "https://github.com/ddahon"
+    name = "mastodon"
+    url = "https://joinmastodon.org/"
 
   [[params.socialLinks]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/doryan-dahon-19a927194/"
+    name = "x"
+    url = "https://twitter.com/"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
 
 [menu]
 
